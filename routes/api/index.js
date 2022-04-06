@@ -1,4 +1,4 @@
-const router = require('./pizza-routes')
+const router = require('express').Router()
 const pizzaRoutes = require('./pizza-routes')
 
 router.use('/pizzas', pizzaRoutes)
